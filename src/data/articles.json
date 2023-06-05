@@ -1,22 +1,27 @@
 [
 	{
 		"title": "New Street in Berlin",
-		"body": "There is a new street in Berlin."
+		"body": "There is a new street in Berlin.",
+		"whenPublished": "2023-04-07"
 	},
 	{
 		"title": "New Street in Hamburg",
-		"body": "There is a new street in Hamburg."
+		"body": "There is a new street in Hamburg.",
+		"whenPublished": "2023-03-07"
 	},
 	{
 		"title": "New Street in Paris",
-		"body": "There is a new street in Paris."
+		"body": "There is a new street in Paris.",
+		"whenPublished": "2023-03-17"
 	},
 	{
 		"title": "New Street in Madrid",
-		"body": "There is a new street in Madrid."
+		"body": "There is a new street in Madrid.",
+		"whenPublished": "2023-02-28"
 	},
 	{
 		"title": "New Street in Athens",
-		"body": "There is a new street in Athens."
+		"body": "There is a new street in Athens.",
+		"whenPublished": "2023-04-29"
 	}
 ]
