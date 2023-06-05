@@ -40,5 +40,25 @@ body {
 
 	main {
 		font-size: 1.2rem;
+
+
+		.pageArticles {
+			.article {
+				background: #111;
+				margin-bottom: 1rem;
+				padding: 1rem;
+				margin-top: 1rem;
+				border-radius: .5rem;
+
+				.title {
+					color:rgb(211, 145, 24);
+				}
+
+				.body {
+					margin-top: .5rem;
+					font-style: italic;
+				}
+			}
+		}
 	}
 }
