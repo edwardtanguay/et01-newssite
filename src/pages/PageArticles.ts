@@ -1,3 +1,4 @@
+import { NewsletterSignupBox } from '../components/NewsletterSignupBox';
 import articles from '../data/articles.json';
 
 // articles.sort((a, b) => 1);
@@ -18,11 +19,6 @@ export const PageArticles = () => {
 			`;
 		}).join('')}
 	</div>
-	<div class="newsletterSignupBox">
-		<form>
-			<p>Please sign up for our monthly newsletter, enter email here:</p>
-			<input/> <button>Sign Up</button>
-		</form>
-	</div>
+	${NewsletterSignupBox()}
 `; 
 }

@@ -35,9 +35,11 @@ export const getMenu = () => {
 	}
 
 	return /*html*/`
-	<ul>
-		${pageNames.map(pageName => `<li><a href="${pageName.toLowerCase()}"${getMenuClass(pageName)}>${pageName}</a></li>`).join('')}
-	</ul>
+	<nav>
+		<ul>
+			${pageNames.map(pageName => `<li><a href="${pageName.toLowerCase()}"${getMenuClass(pageName)}>${pageName}</a></li>`).join('')}
+		</ul>
+	</nav>
 `;
 }
 
