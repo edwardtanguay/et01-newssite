@@ -20,7 +20,7 @@ export const PageArticles = () => {
 	</div>
 	<div class="newsletterSignupBox">
 		<form>
-			<p>Please sign up for our newsletter, enter email here:</p>
+			<p>Please sign up for our monthly newsletter, enter email here:</p>
 			<input/> <button>Sign Up</button>
 		</form>
 	</div>
