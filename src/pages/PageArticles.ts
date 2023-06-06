@@ -1,3 +1,4 @@
+import { Article } from '../components/Article';
 import { NewsletterSignupBox } from '../components/NewsletterSignupBox';
 import articles from '../data/articles.json';
 
@@ -11,11 +12,7 @@ export const PageArticles = () => {
 		<p>These are the ${articles.length} articles.</p>
 		${articles.map(article => {
 			return `
-			<div class="article">
-				<div class="supertitle">${article.whenPublished}</div>
-				<div class="title">${article.title}</div>
-				<div class="body">${article.body}</div>
-			</div>
+			${Article(article)}
 			`;
 		}).join('')}
 	</div>
