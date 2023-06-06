@@ -15,6 +15,16 @@ body {
 		margin-bottom: .5rem;
 	}
 
+	.newsletterSignupBox {
+		margin-top: 1rem;
+		background-color: rgb(26, 84, 26);
+		border-radius: .5rem;
+		padding: 1rem;
+		p {
+			margin-bottom: .5rem;
+		}
+	}
+
 	nav {
 		margin-bottom: 2rem;
 		background-color: #444;
@@ -40,7 +50,6 @@ body {
 
 	main {
 		font-size: 1.2rem;
-
 
 		.pageArticles {
 			.article {

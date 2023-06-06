@@ -4,8 +4,6 @@ import articles from '../data/articles.json';
 // articles.sort((a, b) => a.whenPublished < b.whenPublished);
 articles.sort((a, b) => (a.whenPublished < b.whenPublished ? -1 : 1));
 
-console.log(typeof(articles));
-
 export const PageArticles = () => {
 	return /*html*/`
 	<div class="page pageArticles">
@@ -19,6 +17,12 @@ export const PageArticles = () => {
 			</div>
 			`;
 		}).join('')}
+	</div>
+	<div class="newsletterSignupBox">
+		<form>
+			<p>Please sign up for our newsletter, enter email here:</p>
+			<input/> <button>Sign Up</button>
+		</form>
 	</div>
 `; 
 }
